@@ -1,0 +1,139 @@
+/* Write your CSS here */
+.main-bg {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: linear-gradient(#fbc7d4, #9796f0);
+}
+
+@media screen and (min-width: 768px) {
+}
+.white-container {
+  background-color: #ffffff;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 90%;
+  border-radius: 10px;
+}
+.add-appointment-div {
+  padding: 20px;
+}
+.heading {
+  font-family: Roboto;
+  color: #171f46;
+  font-weight: bold;
+  font-size: 25px;
+  padding-bottom: 5px;
+}
+.input-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.appointment-img {
+  width: 40%;
+}
+.input-for {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-family: roboto;
+  color: #b5b7c4;
+  font-size: 11px;
+  font-weight: 500;
+  padding-top: 5px;
+  padding-bottom: 10px;
+}
+.title-div {
+  padding-bottom: 10px;
+  padding-top: 10px;
+  display: flex;
+  flex-direction: column;
+}
+.input-Box {
+  border-radius: 3px;
+  border-color: #b5b7c4;
+  border-width: 1px;
+  width: 250px;
+  height: 35px;
+  padding-left: 10px;
+  padding-bottom: 10px;
+  font-family: roboto;
+}
+.button {
+  background-color: #8b5cf6;
+  height: 28px;
+  width: 55px;
+  border-radius: 8px;
+  color: #ffffff;
+  font-family: roboto;
+  font-weight: 400;
+  font-size: 12px;
+  text-align: center;
+  border-style: none;
+  margin-top: 15px;
+  cursor: pointer;
+}
+.horizontal-line {
+  color: #b5b7c4;
+}
+.appointment-div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.appointment-item-heading {
+  font-family: roboto;
+  font-weight: 600;
+  font-size: 18px;
+  color: #171f46;
+}
+.appointment-container {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.starred-div {
+  font-family: roboto;
+  font-size: 11px;
+  padding-top: 3px;
+  border-color: #9897f0;
+  border-width: 1px;
+  border-radius: 15px;
+  border-style: solid;
+  font-weight: bold;
+  width: 65px;
+  height: 22px;
+  text-align: center;
+}
+.onStar {
+  background-color: #9897f0;
+  color: #ffffff;
+}
+.offStar {
+  background-color: #ffffff;
+  color: #9897f0;
+}
+
+.schedule-appointment {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding-left: 0px;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+}
+.heading-input {
+  display: flex;
+  flex-direction: column;
+}
+.form-img-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
